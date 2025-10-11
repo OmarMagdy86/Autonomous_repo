@@ -1,0 +1,30 @@
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):
+  add_custom_target cannot create target
+  "ament_cmake_python_copy_turtle_control_pkg" because another target with
+  the same name already exists.  The existing target is a custom target
+  created in source directory
+  "/home/omar-magdy/Autonomous_repo/src/turtle_control_pkg".  See
+  documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+  /opt/ros/jazzy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:123 (ament_python_install_package)
+  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+  CMakeLists.txt:30 (rosidl_generate_interfaces)
+
+[0m
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:144 (add_custom_target):
+  add_custom_target cannot create target
+  "ament_cmake_python_build_turtle_control_pkg_egg" because another target
+  with the same name already exists.  The existing target is a custom target
+  created in source directory
+  "/home/omar-magdy/Autonomous_repo/src/turtle_control_pkg".  See
+  documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+  /opt/ros/jazzy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:123 (ament_python_install_package)
+  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)
+  CMakeLists.txt:30 (rosidl_generate_interfaces)
+
+[0m

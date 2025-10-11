@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.000199] (turtle_control_pkg) JobQueued: {'identifier': 'turtle_control_pkg', 'dependencies': OrderedDict()}
+[0.000523] (turtle_control_pkg) JobStarted: {'identifier': 'turtle_control_pkg'}
+[0.006309] (turtle_control_pkg) JobProgress: {'identifier': 'turtle_control_pkg', 'progress': 'cmake'}
+[0.006756] (turtle_control_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/omar-magdy/Autonomous_repo/src/turtle_control_pkg', '-DCMAKE_INSTALL_PREFIX=/home/omar-magdy/Autonomous_repo/install/turtle_control_pkg'], 'cwd': '/home/omar-magdy/Autonomous_repo/build/turtle_control_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'omar-magdy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/omar-magdy', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/omar-magdy/.nvm/versions/node/v22.20.0/bin', 'NVM_INC': '/home/omar-magdy/.nvm/versions/node/v22.20.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2226', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/omar-magdy/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'omar-magdy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'omar-magdy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/omar-magdy/.nvm/versions/node/v22.20.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/omar-magdy-Dell-G15-5511:@/tmp/.ICE-unix/2183,unix/omar-magdy-Dell-G15-5511:/tmp/.ICE-unix/2183', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a5030c67_09fe_445b_a24f_4a6a8241c8c1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/omar-magdy/Autonomous_repo/build/turtle_control_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.047517] (turtle_control_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.093636] (turtle_control_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.099942] (-) TimerEvent: {}
+[0.104930] (turtle_control_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200136] (-) TimerEvent: {}
+[0.207461] (turtle_control_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.214702] (turtle_control_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.214953] (turtle_control_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.215349] (turtle_control_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.224483] (turtle_control_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300320] (-) TimerEvent: {}
+[0.304024] (turtle_control_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.310795] (turtle_control_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.310955] (turtle_control_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.311315] (turtle_control_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.314345] (turtle_control_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400421] (-) TimerEvent: {}
+[0.417363] (turtle_control_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.499831] (turtle_control_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.500502] (-) TimerEvent: {}
+[0.535557] (turtle_control_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.546835] (turtle_control_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.559628] (turtle_control_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.573806] (turtle_control_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600656] (-) TimerEvent: {}
+[0.608359] (turtle_control_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.620555] (turtle_control_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.700837] (-) TimerEvent: {}
+[0.801062] (-) TimerEvent: {}
+[0.901297] (-) TimerEvent: {}
+[1.001545] (-) TimerEvent: {}
+[1.101801] (-) TimerEvent: {}
+[1.136586] (turtle_control_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.201962] (-) TimerEvent: {}
+[1.302254] (-) TimerEvent: {}
+[1.402509] (-) TimerEvent: {}
+[1.502787] (-) TimerEvent: {}
+[1.603031] (-) TimerEvent: {}
+[1.703309] (-) TimerEvent: {}
+[1.710330] (turtle_control_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.803475] (-) TimerEvent: {}
+[1.903751] (-) TimerEvent: {}
+[1.934940] (turtle_control_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.937784] (turtle_control_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.003912] (-) TimerEvent: {}
+[2.031332] (turtle_control_pkg) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.104021] (-) TimerEvent: {}
+[2.204234] (-) TimerEvent: {}
+[2.304545] (-) TimerEvent: {}
+[2.324394] (turtle_control_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.345530] (turtle_control_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):\n'}
+[2.345646] (turtle_control_pkg) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[2.345693] (turtle_control_pkg) StderrLine: {'line': b'  "ament_cmake_python_copy_turtle_control_pkg" because another target with\n'}
+[2.345733] (turtle_control_pkg) StderrLine: {'line': b'  the same name already exists.  The existing target is a custom target\n'}
+[2.345771] (turtle_control_pkg) StderrLine: {'line': b'  created in source directory\n'}
+[2.345809] (turtle_control_pkg) StderrLine: {'line': b'  "/home/omar-magdy/Autonomous_repo/src/turtle_control_pkg".  See\n'}
+[2.345846] (turtle_control_pkg) StderrLine: {'line': b'  documentation for policy CMP0002 for more details.\n'}
+[2.345885] (turtle_control_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.345922] (turtle_control_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[2.345964] (turtle_control_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:123 (ament_python_install_package)\n'}
+[2.346002] (turtle_control_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.346040] (turtle_control_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)\n'}
+[2.346077] (turtle_control_pkg) StderrLine: {'line': b'  CMakeLists.txt:30 (rosidl_generate_interfaces)\n'}
+[2.346115] (turtle_control_pkg) StderrLine: {'line': b'\n'}
+[2.346152] (turtle_control_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[2.346189] (turtle_control_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:144 (add_custom_target):\n'}
+[2.346227] (turtle_control_pkg) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[2.346265] (turtle_control_pkg) StderrLine: {'line': b'  "ament_cmake_python_build_turtle_control_pkg_egg" because another target\n'}
+[2.346302] (turtle_control_pkg) StderrLine: {'line': b'  with the same name already exists.  The existing target is a custom target\n'}
+[2.346339] (turtle_control_pkg) StderrLine: {'line': b'  created in source directory\n'}
+[2.346377] (turtle_control_pkg) StderrLine: {'line': b'  "/home/omar-magdy/Autonomous_repo/src/turtle_control_pkg".  See\n'}
+[2.346414] (turtle_control_pkg) StderrLine: {'line': b'  documentation for policy CMP0002 for more details.\n'}
+[2.346459] (turtle_control_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.346508] (turtle_control_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[2.346548] (turtle_control_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:123 (ament_python_install_package)\n'}
+[2.346591] (turtle_control_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.346629] (turtle_control_pkg) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:280 (ament_execute_extensions)\n'}
+[2.346669] (turtle_control_pkg) StderrLine: {'line': b'  CMakeLists.txt:30 (rosidl_generate_interfaces)\n'}
+[2.346707] (turtle_control_pkg) StderrLine: {'line': b'\n'}
+[2.346744] (turtle_control_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[2.350933] (turtle_control_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.369154] (turtle_control_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.369235] (turtle_control_pkg) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.369715] (turtle_control_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.370174] (turtle_control_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.371103] (turtle_control_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.372905] (turtle_control_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.380577] (turtle_control_pkg) CommandEnded: {'returncode': 1}
+[2.393085] (turtle_control_pkg) JobEnded: {'identifier': 'turtle_control_pkg', 'rc': 1}
+[2.403587] (-) EventReactorShutdown: {}

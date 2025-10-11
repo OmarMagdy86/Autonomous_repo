@@ -1,0 +1,2 @@
+Invoking command in '/home/omar-magdy/Autonomous_repo/build/turtle_control_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/omar-magdy/Autonomous_repo/src/turtle_control_pkg -DCMAKE_INSTALL_PREFIX=/home/omar-magdy/Autonomous_repo/install/turtle_control_pkg
+Invoked command in '/home/omar-magdy/Autonomous_repo/build/turtle_control_pkg' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/omar-magdy/Autonomous_repo/src/turtle_control_pkg -DCMAKE_INSTALL_PREFIX=/home/omar-magdy/Autonomous_repo/install/turtle_control_pkg

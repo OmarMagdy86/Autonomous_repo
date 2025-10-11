@@ -1,0 +1,212 @@
+[0.008s] Invoking command in '/home/omar-magdy/Autonomous_repo/build/turtle_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-magdy/Autonomous_repo/build/turtle_control_pkg -- -j12 -l12
+[0.047s] [  1%] Built target turtle_control_pkg__rosidl_generator_type_description
+[0.054s] [  1%] Built target ament_cmake_python_copy_turtle_control_pkg
+[0.062s] [  3%] Built target turtle_control_pkg__cpp
+[0.063s] [ 24%] Built target turtle_control_pkg__rosidl_generator_c
+[0.084s] [ 55%] Built target turtle_control_pkg__rosidl_typesupport_c
+[0.084s] [ 55%] Built target turtle_control_pkg__rosidl_typesupport_introspection_cpp
+[0.084s] [ 55%] Built target turtle_control_pkg__rosidl_typesupport_cpp
+[0.084s] [ 61%] Built target turtle_control_pkg__rosidl_typesupport_introspection_c
+[0.086s] [ 74%] Built target turtle_control_pkg__rosidl_typesupport_fastrtps_cpp
+[0.086s] [ 79%] Built target turtle_control_pkg__rosidl_typesupport_fastrtps_c
+[0.103s] [ 79%] Built target turtle_control_pkg
+[0.120s] [ 81%] Built target turtle_control_pkg__py
+[0.138s] [ 88%] Built target turtle_control_pkg__rosidl_generator_py
+[0.157s] [100%] Built target turtle_control_pkg_s__rosidl_typesupport_fastrtps_c
+[0.157s] [100%] Built target turtle_control_pkg_s__rosidl_typesupport_introspection_c
+[0.157s] [100%] Built target turtle_control_pkg_s__rosidl_typesupport_c
+[0.221s] running egg_info
+[0.235s] writing turtle_control_pkg.egg-info/PKG-INFO
+[0.235s] writing dependency_links to turtle_control_pkg.egg-info/dependency_links.txt
+[0.235s] writing top-level names to turtle_control_pkg.egg-info/top_level.txt
+[0.275s] reading manifest file 'turtle_control_pkg.egg-info/SOURCES.txt'
+[0.275s] writing manifest file 'turtle_control_pkg.egg-info/SOURCES.txt'
+[0.296s] [100%] Built target ament_cmake_python_build_turtle_control_pkg_egg
+[0.306s] Invoked command in '/home/omar-magdy/Autonomous_repo/build/turtle_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-magdy/Autonomous_repo/build/turtle_control_pkg -- -j12 -l12
+[0.314s] Invoking command in '/home/omar-magdy/Autonomous_repo/build/turtle_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar-magdy/Autonomous_repo/build/turtle_control_pkg
+[0.324s] -- Install configuration: ""
+[0.325s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/turtle_control_pkg/turtle_control.py
+[0.325s] -- Installing: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/turtle_control_pkg/simple_publisher.py
+[0.325s] -- Installing: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/turtle_control_pkg/simple_subscriber.py
+[0.325s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/ament_index/resource_index/rosidl_interfaces/turtle_control_pkg
+[0.325s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/msg/Num.json
+[0.325s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/msg/Sphere.json
+[0.325s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/srv/AddThreeInts.json
+[0.325s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg
+[0.325s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv
+[0.325s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail
+[0.325s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__type_support.h
+[0.325s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__struct.h
+[0.325s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__description.c
+[0.326s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__functions.h
+[0.326s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__functions.c
+[0.326s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__type_support.c
+[0.326s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/add_three_ints.h
+[0.326s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg
+[0.326s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail
+[0.326s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__description.c
+[0.326s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__type_support.h
+[0.326s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__type_support.c
+[0.326s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__functions.h
+[0.326s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__functions.c
+[0.326s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__functions.c
+[0.326s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__functions.h
+[0.326s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__type_support.c
+[0.327s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__description.c
+[0.327s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__type_support.h
+[0.327s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__struct.h
+[0.327s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__struct.h
+[0.327s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/num.h
+[0.327s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/rosidl_generator_c__visibility_control.h
+[0.327s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/sphere.h
+[0.327s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/environment/library_path.sh
+[0.327s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/environment/library_path.dsv
+[0.327s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/libturtle_control_pkg__rosidl_generator_c.so
+[0.327s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg
+[0.327s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv
+[0.327s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail
+[0.327s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[0.328s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg
+[0.328s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail
+[0.328s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[0.328s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[0.328s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.328s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/libturtle_control_pkg__rosidl_typesupport_fastrtps_c.so
+[0.328s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg
+[0.328s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv
+[0.328s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail
+[0.328s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__type_support.hpp
+[0.328s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__builder.hpp
+[0.328s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__struct.hpp
+[0.328s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__traits.hpp
+[0.328s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/add_three_ints.hpp
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__type_support.hpp
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__builder.hpp
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__struct.hpp
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__traits.hpp
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__type_support.hpp
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__builder.hpp
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__struct.hpp
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__traits.hpp
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/sphere.hpp
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/num.hpp
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/dds_fastrtps
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[0.329s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/dds_fastrtps
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/libturtle_control_pkg__rosidl_typesupport_fastrtps_cpp.so
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__type_support.c
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__type_support.c
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__type_support.c
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__rosidl_typesupport_introspection_c.h
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/libturtle_control_pkg__rosidl_typesupport_introspection_c.so
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/libturtle_control_pkg__rosidl_typesupport_c.so
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__type_support.cpp
+[0.330s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__type_support.cpp
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__type_support.cpp
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/include/turtle_control_pkg/turtle_control_pkg/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/libturtle_control_pkg__rosidl_typesupport_introspection_cpp.so
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/libturtle_control_pkg__rosidl_typesupport_cpp.so
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/environment/pythonpath.sh
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/environment/pythonpath.dsv
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg-0.0.0-py3.12.egg-info
+[0.331s] -- Installing: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg-0.0.0-py3.12.egg-info/PKG-INFO
+[0.331s] -- Installing: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.331s] -- Installing: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg-0.0.0-py3.12.egg-info/top_level.txt
+[0.331s] -- Installing: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/turtle_control_pkg_s__rosidl_typesupport_c.so
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/turtle_control_pkg_s__rosidl_typesupport_introspection_c.so
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/__init__.py
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/_turtle_control_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/srv
+[0.331s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/srv/_add_three_ints_s.c
+[0.332s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/srv/__init__.py
+[0.332s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/srv/_add_three_ints.py
+[0.332s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/_turtle_control_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[0.332s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/msg
+[0.332s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/msg/_sphere_s.c
+[0.332s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/msg/__init__.py
+[0.332s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/msg/_num_s.c
+[0.332s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/msg/_sphere.py
+[0.332s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/msg/_num.py
+[0.332s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/_turtle_control_pkg_s.ep.rosidl_typesupport_c.c
+[0.332s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/turtle_control_pkg_s__rosidl_typesupport_fastrtps_c.so
+[0.353s] Listing '/home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg'...
+[0.353s] Listing '/home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/msg'...
+[0.353s] Listing '/home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/srv'...
+[0.357s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/turtle_control_pkg_s__rosidl_typesupport_fastrtps_c.so
+[0.357s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/turtle_control_pkg_s__rosidl_typesupport_introspection_c.so
+[0.357s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/python3.12/site-packages/turtle_control_pkg/turtle_control_pkg_s__rosidl_typesupport_c.so
+[0.357s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/lib/libturtle_control_pkg__rosidl_generator_py.so
+[0.357s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/msg/Num.idl
+[0.357s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/msg/Sphere.idl
+[0.357s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/srv/AddThreeInts.idl
+[0.357s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/msg/Num.msg
+[0.357s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/msg/Sphere.msg
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/srv/AddThreeInts.srv
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/ament_index/resource_index/package_run_dependencies/turtle_control_pkg
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/ament_index/resource_index/parent_prefix_path/turtle_control_pkg
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/environment/ament_prefix_path.sh
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/environment/ament_prefix_path.dsv
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/environment/path.sh
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/environment/path.dsv
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/local_setup.bash
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/local_setup.sh
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/local_setup.zsh
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/local_setup.dsv
+[0.358s] -- Installing: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/package.dsv
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/ament_index/resource_index/packages/turtle_control_pkg
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/export_turtle_control_pkg__rosidl_generator_cExport.cmake
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/export_turtle_control_pkg__rosidl_generator_cExport-noconfig.cmake
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/export_turtle_control_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/export_turtle_control_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.358s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/export_turtle_control_pkg__rosidl_generator_cppExport.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/export_turtle_control_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/export_turtle_control_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/turtle_control_pkg__rosidl_typesupport_introspection_cExport.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/turtle_control_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/turtle_control_pkg__rosidl_typesupport_cExport.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/turtle_control_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/turtle_control_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/turtle_control_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/turtle_control_pkg__rosidl_typesupport_cppExport.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/turtle_control_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/export_turtle_control_pkg__rosidl_generator_pyExport.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/export_turtle_control_pkg__rosidl_generator_pyExport-noconfig.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/rosidl_cmake-extras.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/turtle_control_pkgConfig.cmake
+[0.359s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/cmake/turtle_control_pkgConfig-version.cmake
+[0.360s] -- Up-to-date: /home/omar-magdy/Autonomous_repo/install/turtle_control_pkg/share/turtle_control_pkg/package.xml
+[0.360s] Invoked command in '/home/omar-magdy/Autonomous_repo/build/turtle_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar-magdy/Autonomous_repo/build/turtle_control_pkg
