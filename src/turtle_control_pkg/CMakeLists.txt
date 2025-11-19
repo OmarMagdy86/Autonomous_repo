@@ -5,13 +5,13 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
+# 1. Find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
-# Install the Python executable scripts
+# 2. Install Python executable scripts
 install(PROGRAMS
   turtle_control_pkg/turtle_control.py
   turtle_control_pkg/simple_publisher.py
@@ -23,15 +23,17 @@ install(PROGRAMS
   DESTINATION lib/${PROJECT_NAME}
 )
 
-# ⬇️ CRITICAL UPDATE: Install the 'launch', 'worlds', and 'rviz' directories
-# This allows the launch file to find your SDF world and Rviz configs.
+# 3. Install Directories (Launch, Worlds, URDF, RViz)
+# ⬇️ ADDED: 'rviz' is now included since you have created the folder
 install(DIRECTORY
   launch
   worlds
-  rviz 
+  urdf
+  rviz
   DESTINATION share/${PROJECT_NAME}
 )
 
+# 4. Generate Interfaces (Messages/Services/Actions)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Num.msg"
   "srv/AddThreeInts.srv"

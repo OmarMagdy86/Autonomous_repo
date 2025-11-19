@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<robot name="vehicle_blue">
+
+  <!-- CHASSIS -->
+  <link name="vehicle_blue/chassis">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="2.0 1.0 0.5"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- LEFT WHEEL -->
+  <link name="vehicle_blue/left_wheel">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5707 0 0"/> 
+      <geometry>
+        <cylinder radius="0.4" length="0.2"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="left_wheel_joint" type="fixed">
+    <parent link="vehicle_blue/chassis"/>
+    <child link="vehicle_blue/left_wheel"/>
+    <origin xyz="-0.5 0.6 0" rpy="0 0 0"/> 
+  </joint>
+
+  <!-- RIGHT WHEEL -->
+  <link name="vehicle_blue/right_wheel">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5707 0 0"/>
+      <geometry>
+        <cylinder radius="0.4" length="0.2"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="right_wheel_joint" type="fixed">
+    <parent link="vehicle_blue/chassis"/>
+    <child link="vehicle_blue/right_wheel"/>
+    <origin xyz="-0.5 -0.6 0" rpy="0 0 0"/> 
+  </joint>
+
+  <!-- CASTER WHEEL -->
+  <link name="vehicle_blue/caster">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.2"/>
+      </geometry>
+      <material name="green">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="caster_joint" type="fixed">
+    <parent link="vehicle_blue/chassis"/>
+    <child link="vehicle_blue/caster"/>
+    <origin xyz="0.8 0 -0.2" rpy="0 0 0"/>
+  </joint>
+
+  <!-- LIDAR SENSOR -->
+  <link name="vehicle_blue/lidar_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.1"/>
+      </geometry>
+      <material name="black">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="lidar_joint" type="fixed">
+    <parent link="vehicle_blue/chassis"/>
+    <child link="vehicle_blue/lidar_link"/>
+    <!-- ⬇️ CHANGED: from 0.5 to 0.3 to match SDF -->
+    <origin xyz="0.8 0 0.3" rpy="0 0 0"/>
+  </joint>
+
+</robot>
