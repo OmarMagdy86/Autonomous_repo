@@ -7,38 +7,41 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-
-# ⬇️ ADD: Find the Python support package
 find_package(ament_cmake_python REQUIRED)
-# find_package(<dependency> REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
-
-# ⬇️ ADD: Install the Python executable script 
-# The script to be run by 'ros2 run' should be installed as a PROGRAM.
-# Assuming the main script is turtle_control.py inside a source directory named 'turtle_control_pkg'
+# Install the Python executable scripts
 install(PROGRAMS
   turtle_control_pkg/turtle_control.py
   turtle_control_pkg/simple_publisher.py
   turtle_control_pkg/simple_subscriber.py
+  turtle_control_pkg/client_example.py
+  turtle_control_pkg/server_example.py
+  turtle_control_pkg/fibonacci_action_server.py
+  turtle_control_pkg/fibonacci_action_client.py
   DESTINATION lib/${PROJECT_NAME}
+)
+
+# ⬇️ CRITICAL UPDATE: Install the 'launch', 'worlds', and 'rviz' directories
+# This allows the launch file to find your SDF world and Rviz configs.
+install(DIRECTORY
+  launch
+  worlds
+  rviz 
+  DESTINATION share/${PROJECT_NAME}
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Num.msg"
-  "msg/Sphere.msg"
   "srv/AddThreeInts.srv"
-  DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
+  "action/Fibonacci.action"
+  DEPENDENCIES geometry_msgs
 )
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # comment the line when a copyright and license is added to all source files
   set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # comment the line when this package is in a git repo and when
-  # a copyright and license is added to all source files
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
