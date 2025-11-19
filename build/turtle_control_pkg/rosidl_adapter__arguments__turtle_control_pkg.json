@@ -1,8 +1,0 @@
-{
-  "package_name": "turtle_control_pkg",
-  "non_idl_tuples": [
-    "/home/omar-magdy/Autonomous_repo/src/turtle_control_pkg:msg/Num.msg",
-    "/home/omar-magdy/Autonomous_repo/src/turtle_control_pkg:msg/Sphere.msg",
-    "/home/omar-magdy/Autonomous_repo/src/turtle_control_pkg:srv/AddThreeInts.srv"
-  ]
-}

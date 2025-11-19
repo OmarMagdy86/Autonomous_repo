@@ -1,2 +1,0 @@
-Invoking command in '/home/omar-magdy/Autonomous_repo/build/turtle_control_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-magdy/Autonomous_repo/build/turtle_control_pkg -- -j12 -l12
-Invoked command in '/home/omar-magdy/Autonomous_repo/build/turtle_control_pkg' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-magdy/Autonomous_repo/build/turtle_control_pkg -- -j12 -l12
