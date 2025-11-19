@@ -1,0 +1,23 @@
+ROS 2 Workspace artifacts
+
+build/
+install/
+log/
+
+Python cache and compiled files
+
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+Editor specific configurations (Optional but recommended)
+
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+Colcon specific
+
+COLCON_IGNORE

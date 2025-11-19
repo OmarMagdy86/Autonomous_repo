@@ -1,29 +1,20 @@
 <?xml version="1.0" ?>
 <sdf version="1.10">
     <world name="car_world">
-        <!-- Physics properties -->
         <physics name="1ms" type="ignored">
             <max_step_size>0.001</max_step_size>
             <real_time_factor>1.0</real_time_factor>
         </physics>
 
-        <!-- ========================================== -->
-        <!-- WORLD PLUGINS (Global Systems)             -->
-        <!-- ========================================== -->
-        <!-- Handles the physics simulation -->
+        <!-- System Plugins -->
         <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"></plugin>
-        <!-- Handles user commands (CLI/GUI) -->
         <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"></plugin>
-        <!-- Broadcasts scene updates for rendering -->
         <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"></plugin>
-        <!-- Manages sensor data generation (Lidar, Camera) -->
         <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
             <render_engine>ogre2</render_engine>
         </plugin>
-        <!-- Manages IMU data specifically -->
         <plugin filename="gz-sim-imu-system" name="gz::sim::systems::Imu"></plugin>
 
-        <!-- Global Light -->
         <light type="directional" name="sun">
             <cast_shadows>true</cast_shadows>
             <pose>0 0 10 0 0 0</pose>
@@ -38,7 +29,6 @@
             <direction>-0.5 0.1 -0.9</direction>
         </light>
 
-        <!-- Ground Plane -->
         <model name="ground_plane">
             <static>true</static>
             <link name="link">
@@ -56,7 +46,26 @@
             </link>
         </model>
 
-        <!-- Robot Model -->
+        <!-- Obstacle Wall -->
+        <model name='wall'>
+            <static>true</static>
+            <pose>5 0 0.5 0 0 0</pose>
+            <link name='box'>
+                <visual name='visual'>
+                    <geometry><box><size>0.5 10.0 2.0</size></box></geometry>
+                    <material>
+                        <ambient>0.5 0.5 0.5 1</ambient>
+                        <diffuse>0.5 0.5 0.5 1</diffuse>
+                        <specular>0.5 0.5 0.5 1</specular>
+                    </material>
+                </visual>
+                <collision name='collision'>
+                    <geometry><box><size>0.5 10.0 2.0</size></box></geometry>
+                </collision>
+            </link>
+        </model>
+
+        <!-- Robot -->
         <model name='vehicle_blue' canonical_link='chassis'>
             <pose relative_to='world'>0 0 0 0 0 0</pose>
 
@@ -69,6 +78,8 @@
                         <iyy>0.381317</iyy><iyz>0</iyz><izz>0.476646</izz>
                     </inertia>
                 </inertial>
+                
+                <!-- Main Body Visual -->
                 <visual name='visual'>
                     <geometry><box><size>2.0 1.0 0.5</size></box></geometry>
                     <material>
@@ -77,26 +88,54 @@
                         <specular>0.0 0.0 1.0 1</specular>
                     </material>
                 </visual>
+                
+                <!-- ⬇️ NEW: Lidar Physical Visual (Black Cylinder) -->
+                <visual name='lidar_visual'>
+                    <pose>0.8 0 0.3 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.05</radius>
+                            <length>0.1</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <ambient>0 0 0 1</ambient>
+                        <diffuse>0 0 0 1</diffuse>
+                        <specular>0 0 0 1</specular>
+                    </material>
+                </visual>
+
+                <!-- ⬇️ NEW: IMU Physical Visual (Purple Box) -->
+                <visual name='imu_visual'>
+                    <pose>0 0 0.3 0 0 0</pose>
+                    <geometry>
+                        <box>
+                            <size>0.1 0.1 0.1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>1 0 1 1</ambient>
+                        <diffuse>1 0 1 1</diffuse>
+                        <specular>1 0 1 1</specular>
+                    </material>
+                </visual>
+
                 <collision name='collision'>
                     <geometry><box><size>2.0 1.0 0.5</size></box></geometry>
                 </collision>
 
-                <!-- ========================================== -->
-                <!-- SENSORS (Must be inside a link)            -->
-                <!-- ========================================== -->
-                
-                <!-- IMU Sensor -->
+                <!-- IMU Sensor (Data) -->
                 <sensor name="imu_sensor" type="imu">
+                    <pose>0 0 0.3 0 0 0</pose>
                     <always_on>1</always_on>
                     <update_rate>1</update_rate>
-                    <visualize>true</visualize>
+                    <visualize>true</visualize> <!-- Shows XYZ axis -->
                     <topic>imu</topic>
                 </sensor>
 
-                <!-- Lidar Sensor -->
-                <!-- Note: Pose is relative to the chassis link -->
+                <!-- Lidar Sensor (Data) -->
                 <sensor name='gpu_lidar' type='gpu_lidar'>
-                    <pose relative_to='chassis'>0.8 0 0.5 0 0 0</pose>
+                    <pose relative_to='chassis'>0.8 0 0.3 0 0 0</pose>
                     <topic>lidar</topic>
                     <update_rate>10</update_rate>
                     <ray>
@@ -121,7 +160,8 @@
                         </range>
                     </ray>
                     <always_on>1</always_on>
-                    <visualize>true</visualize>
+                    <visualize>true</visualize> <!-- Shows Blue/Orange Rays -->
+                    <gz_frame_id>vehicle_blue/lidar_link</gz_frame_id>
                 </sensor>
             </link>
 
@@ -219,9 +259,6 @@
                 <child>caster</child>
             </joint>
 
-            <!-- ========================================== -->
-            <!-- MODEL PLUGINS (Specific to the Robot)      -->
-            <!-- ========================================== -->
             <plugin
                 filename="gz-sim-diff-drive-system"
                 name="gz::sim::systems::DiffDrive">
@@ -229,7 +266,7 @@
                 <right_joint>right_wheel_joint</right_joint>
                 <wheel_separation>1.2</wheel_separation>
                 <wheel_radius>0.4</wheel_radius>
-                <odom_publish_frequency>1</odom_publish_frequency>
+                <odom_publish_frequency>50</odom_publish_frequency>
                 <topic>cmd_vel</topic>
             </plugin>
             
